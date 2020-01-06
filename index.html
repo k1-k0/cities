@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Cities</title>
+</head>
+<body>
+    <div class="gamefield">
+        <div class="city-controllers">
+            <input id="city-input" type="text" value="" placeholder="Введите название города">
+            <button class="city-btn" type="button">Confirm</button>
+            <button class="city-btn-new" type="button">New Game</button>
+        </div>
+        <div class="cities-results">
+            <div class="cities-player">
+                <div class="cities-score">
+                    <p class="city-player-0 current">Player 1</p>
+                    <p id="city-score-0">0</span>
+                    <div class="city-used" id="city-used-0"></div>
+                </div>
+            </div>
+            <div class="cities-player">
+                <div class="cities-score">
+                    <p class="city-player-1">Player 2</p>
+                    <p id="city-score-1">0</p>
+                    <div class="city-used" id="city-used-1"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
